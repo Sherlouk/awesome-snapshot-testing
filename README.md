@@ -54,5 +54,4 @@ https://happo.io/
 ## TODO
 
 https://github.com/sindresorhus/awesome
-https://github.com/sindresorhus/awesome-lint
 https://github.com/sindresorhus/awesome/blob/main/pull_request_template.md
