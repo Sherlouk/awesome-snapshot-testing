@@ -54,4 +54,4 @@ See [Awesome Visual Regression Testing](https://github.com/mojoaxel/awesome-regr
 
 ## Slideshows, talks and videos
 
-* [Accessibility Snapshots](https://www.youtube.com/watch?v=ZDEMr31pmpw) by [Tikitu de Jager](https://twitter.com/ttikitu) - Discusses how snapshot testing can be used to prevent regressions in accessibility support in your iOS application. ([Associated GitHub Project](https://github.com/minddistrict/ios-accessibility-text-snapshot))
+* [Accessibility Snapshots](https://www.youtube.com/watch?v=ZDEMr31pmpw) - Talk by [Tikitu de Jager](https://twitter.com/ttikitu) discussing how snapshot testing can be used to prevent regressions in accessibility support in your iOS application. ([Associated GitHub Project](https://github.com/minddistrict/ios-accessibility-text-snapshot))
