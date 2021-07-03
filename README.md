@@ -18,29 +18,32 @@ See [Awesome Visual Regression Testing](https://github.com/mojoaxel/awesome-regr
 
 * [iOSSnapshotTestCase](https://github.com/uber/ios-snapshot-test-case/) (previously [FBSnapshotTestCase](https://github.com/facebookarchive/ios-snapshot-test-case))
     * This repository appears to now be [deprecated](https://github.com/uber/ios-snapshot-test-case/pull/126#issuecomment-723352614), but a [fork by the original maintainer](https://github.com/alanzeino/ios-snapshot-test-case) appears to have been updated recently.
+    * [AccessibilitySnapshot](https://github.com/cashapp/AccessibilitySnapshot) - Adds a custom image strategy representing VoiceOver support.
+
 * [SnapshotTesting](https://github.com/pointfreeco/swift-snapshot-testing/)
-    * [swift-snapshot-testing-nimble](https://github.com/Sherlouk/swift-snapshot-testing-stitch) - An extension which allows you to stitch multiple images together in a single test
-    * [swift-snapshot-testing-nimble](https://github.com/Killectro/swift-snapshot-testing-nimble) - An extension which adds [Nimble](https://github.com/Quick/Nimble) matchers
-    * [swift-html](https://github.com/pointfreeco/swift-html) - A Swift DSL for type-safe, extensible, and transformable HTML documents and includes an extension to SnapshotTesting which allows you to snapshot HTML documents.
-    * [GRDBSnapshotTesting](https://github.com/SebastianOsinski/GRDBSnapshotTesting) - An extension which adds support for testing SQLite database migrations made with [GRDB](https://github.com/groue/GRDB.swift).
-    * [AccessibilitySnapshot](https://github.com/cashapp/AccessibilitySnapshot)
-    * [AccessibilitySnapshotColorBlindness](https://github.com/Sherlouk/AccessibilitySnapshotColorBlindness)
-    * [ios-accessibility-text-snapshot](https://github.com/minddistrict/ios-accessibility-text-snapshot)
-* [playbook-ios](https://github.com/playbook-ui/playbook-ios)
-    * [accessibility-snapshot-ios](https://github.com/playbook-ui/accessibility-snapshot-ios)
+    * [swift-snapshot-testing-nimble](https://github.com/Sherlouk/swift-snapshot-testing-stitch) - Adds a custom image strategy which stitches multiple other image strategies into a single snapshot test.
+    * [swift-snapshot-testing-nimble](https://github.com/Killectro/swift-snapshot-testing-nimble) - Adds support for [Nimble](https://github.com/Quick/Nimble) matchers.
+    * [swift-html](https://github.com/pointfreeco/swift-html) - Adds a custom text strategy for HTML documents using a Swift DSL for type-safe, extensible, and transformable HTML documents.
+    * [GRDBSnapshotTesting](https://github.com/SebastianOsinski/GRDBSnapshotTesting) - Adds a custom text strategy for SQLite database migrations made with [GRDB](https://github.com/groue/GRDB.swift).
+    * [AccessibilitySnapshot](https://github.com/cashapp/AccessibilitySnapshot) - Adds a custom image strategy representing VoiceOver support.
+    * [AccessibilitySnapshotColorBlindness](https://github.com/Sherlouk/AccessibilitySnapshotColorBlindness) - Adds a custom image strategy for simulating different types of colour blindness.
+    * [ios-accessibility-text-snapshot](https://github.com/minddistrict/ios-accessibility-text-snapshot) - Adds a custom text strategy representing VoiceOver support.
+
+* [playbook-ios](https://github.com/playbook-ui/playbook-ios) - A package which encourages developing isolated UI components with automatic snapshot testing.
+    * [accessibility-snapshot-ios](https://github.com/playbook-ui/accessibility-snapshot-ios) - Adds support for VoiceOver testing using [AccessibilitySnapshot](https://github.com/cashapp/AccessibilitySnapshot).
 
 ## Android
 
-https://github.com/facebook/screenshot-tests-for-android
-https://github.com/Karumi/Shot
+* [screenshot-tests-for-android](https://github.com/facebook/screenshot-tests-for-android)
+* [Shot](https://github.com/Karumi/Shot)
 
 ## Cloud Tools
 
 > There are very few cloud based snapshot testing tools which natively support iOS and Android applications. All of the options below have a workaround which allows you to upload visual snapshots taken by other tools listed above, and still get the benefits of their platform.
 
-https://percy.io/
-https://applitools.com/
-https://happo.io/
+* [Percy](https://percy.io/)
+* [Applitools](https://applitools.com/)
+* [Happo](https://happo.io/)
 
 ## Blog posts
 
@@ -50,8 +53,3 @@ https://happo.io/
 ## Slideshows, talks and videos
 
 * [Accessibility Snapshots](https://www.youtube.com/watch?v=ZDEMr31pmpw) by [Tikitu de Jager](https://twitter.com/ttikitu) - Discusses how snapshot testing can be used to prevent regressions in accessibility support in your iOS application. ([Associated GitHub Project](https://github.com/minddistrict/ios-accessibility-text-snapshot))
-
-## TODO
-
-https://github.com/sindresorhus/awesome
-https://github.com/sindresorhus/awesome/blob/main/pull_request_template.md
