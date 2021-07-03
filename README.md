@@ -1,4 +1,4 @@
-# Awesome Snapshot testing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Snapshot Testing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > Curated list of awesome mobile-friendly snapshot testing resources.
 
@@ -10,9 +10,11 @@ See [Awesome Visual Regression Testing](https://github.com/mojoaxel/awesome-regr
 
 * [iOS](#ios)
 * [Android](#android)
-* [Cloud Tools](#cloud-tools)
-* [Blog Posts](#blog-posts)
+* [Cloud tools](#cloud-tools)
+* [Blog posts](#blog-posts)
 * [Slideshows, talks and videos](#slideshows-talks-and-videos)
+
+<!--lint disable double-link-->
 
 ## iOS
 
@@ -37,7 +39,7 @@ See [Awesome Visual Regression Testing](https://github.com/mojoaxel/awesome-regr
 * [screenshot-tests-for-android](https://github.com/facebook/screenshot-tests-for-android)
 * [Shot](https://github.com/Karumi/Shot)
 
-## Cloud Tools
+## Cloud tools
 
 > There are very few cloud based snapshot testing tools which natively support iOS and Android applications. All of the options below have a workaround which allows you to upload visual snapshots taken by other tools listed above, and still get the benefits of their platform.
 
@@ -47,7 +49,7 @@ See [Awesome Visual Regression Testing](https://github.com/mojoaxel/awesome-regr
 
 ## Blog posts
 
-* [Snapshot Testing in Swift](https://medium.com/dev-jam/snapshot-testing-in-swift-9d52cbec075c) by Roberto Frontado - Explores what snapshot testing is and how to use the SnapshotTesting library in your iOS application.
+* [Snapshot Testing in Swift](https://medium.com/dev-jam/snapshot-testing-in-swift-9d52cbec075c) - Post by Roberto Frontado Explores what snapshot testing is and how to use the SnapshotTesting library in your iOS application.
 * [Better Android Testing at Airbnb using Screenshot Testing](https://medium.com/airbnb-engineering/better-android-testing-at-airbnb-a77ac9531cab) - Explores how Airbnb leveraged [Happo](https://happo.io/) and snapshot testing to enhance testing their Android application.
 
 ## Slideshows, talks and videos
