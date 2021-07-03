@@ -23,7 +23,7 @@ See [Awesome Visual Regression Testing](https://github.com/mojoaxel/awesome-regr
     * [AccessibilitySnapshot](https://github.com/cashapp/AccessibilitySnapshot) - Adds a custom image strategy representing VoiceOver support.
 
 * [SnapshotTesting](https://github.com/pointfreeco/swift-snapshot-testing/)
-    * [swift-snapshot-testing-nimble](https://github.com/Sherlouk/swift-snapshot-testing-stitch) - Adds a custom image strategy which stitches multiple other image strategies into a single snapshot test.
+    * [swift-snapshot-testing-stitch](https://github.com/Sherlouk/swift-snapshot-testing-stitch) - Adds a custom image strategy which stitches multiple other image strategies into a single snapshot test.
     * [swift-snapshot-testing-nimble](https://github.com/Killectro/swift-snapshot-testing-nimble) - Adds support for [Nimble](https://github.com/Quick/Nimble) matchers.
     * [swift-html](https://github.com/pointfreeco/swift-html) - Adds a custom text strategy for HTML documents using a Swift DSL for type-safe, extensible, and transformable HTML documents.
     * [GRDBSnapshotTesting](https://github.com/SebastianOsinski/GRDBSnapshotTesting) - Adds a custom text strategy for SQLite database migrations made with [GRDB](https://github.com/groue/GRDB.swift).
