@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AccessibilitySnapshot",
+        "repositoryURL": "https://github.com/cashapp/AccessibilitySnapshot",
+        "state": {
+          "branch": null,
+          "revision": "fb797dda564408b7da23349b25d192339402286e",
+          "version": "0.4.1"
+        }
+      },
+      {
+        "package": "ios-accessibility-text-snapshot",
+        "repositoryURL": "https://github.com/sherlouk/ios-accessibility-text-snapshot",
+        "state": {
+          "branch": "spm",
+          "revision": "84a64b19a10c2940facf47fcd0c410c38ce2362a",
+          "version": null
+        }
+      },
+      {
+        "package": "SnapshotTesting",
+        "repositoryURL": "https://github.com/pointfreeco/swift-snapshot-testing/",
+        "state": {
+          "branch": null,
+          "revision": "f8a9c997c3c1dab4e216a8ec9014e23144cbab37",
+          "version": "1.9.0"
+        }
+      },
+      {
+        "package": "SnapshotTestingStitch",
+        "repositoryURL": "https://github.com/Sherlouk/swift-snapshot-testing-stitch/",
+        "state": {
+          "branch": null,
+          "revision": "02c07b5ea7c493a8b46045b08bef324995741d8f",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

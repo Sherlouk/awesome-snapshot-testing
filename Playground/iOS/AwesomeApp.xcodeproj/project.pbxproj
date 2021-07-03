@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		164CD1F926909BCA0011E360 /* AwesomeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164CD1F826909BCA0011E360 /* AwesomeAppApp.swift */; };
+		164CD1F926909BCA0011E360 /* AwesomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164CD1F826909BCA0011E360 /* AwesomeApp.swift */; };
 		164CD1FB26909BCA0011E360 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164CD1FA26909BCA0011E360 /* ContentView.swift */; };
 		164CD1FD26909BCA0011E360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164CD1FC26909BCA0011E360 /* Assets.xcassets */; };
 		164CD20026909BCA0011E360 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164CD1FF26909BCA0011E360 /* Preview Assets.xcassets */; };
 		164CD20B26909BCA0011E360 /* AwesomeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164CD20A26909BCA0011E360 /* AwesomeAppTests.swift */; };
+		164CD22526909CA70011E360 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 164CD22426909CA70011E360 /* SnapshotTesting */; };
+		164CD22826909CC30011E360 /* AccessibilitySnapshot in Frameworks */ = {isa = PBXBuildFile; productRef = 164CD22726909CC30011E360 /* AccessibilitySnapshot */; };
+		164CD22B26909CCF0011E360 /* SnapshotTestingStitch in Frameworks */ = {isa = PBXBuildFile; productRef = 164CD22A26909CCF0011E360 /* SnapshotTestingStitch */; };
+		164CD22E26909CF80011E360 /* ios-accessibility-text-snapshot in Frameworks */ = {isa = PBXBuildFile; productRef = 164CD22D26909CF80011E360 /* ios-accessibility-text-snapshot */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		164CD1F526909BCA0011E360 /* AwesomeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		164CD1F826909BCA0011E360 /* AwesomeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeAppApp.swift; sourceTree = "<group>"; };
+		164CD1F826909BCA0011E360 /* AwesomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwesomeApp.swift; sourceTree = "<group>"; };
 		164CD1FA26909BCA0011E360 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		164CD1FC26909BCA0011E360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		164CD1FF26909BCA0011E360 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -48,6 +52,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				164CD22526909CA70011E360 /* SnapshotTesting in Frameworks */,
+				164CD22826909CC30011E360 /* AccessibilitySnapshot in Frameworks */,
+				164CD22E26909CF80011E360 /* ios-accessibility-text-snapshot in Frameworks */,
+				164CD22B26909CCF0011E360 /* SnapshotTestingStitch in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +83,7 @@
 		164CD1F726909BCA0011E360 /* AwesomeApp */ = {
 			isa = PBXGroup;
 			children = (
-				164CD1F826909BCA0011E360 /* AwesomeAppApp.swift */,
+				164CD1F826909BCA0011E360 /* AwesomeApp.swift */,
 				164CD1FA26909BCA0011E360 /* ContentView.swift */,
 				164CD1FC26909BCA0011E360 /* Assets.xcassets */,
 				164CD20126909BCA0011E360 /* Info.plist */,
@@ -135,6 +143,12 @@
 				164CD20826909BCA0011E360 /* PBXTargetDependency */,
 			);
 			name = AwesomeAppTests;
+			packageProductDependencies = (
+				164CD22426909CA70011E360 /* SnapshotTesting */,
+				164CD22726909CC30011E360 /* AccessibilitySnapshot */,
+				164CD22A26909CCF0011E360 /* SnapshotTestingStitch */,
+				164CD22D26909CF80011E360 /* ios-accessibility-text-snapshot */,
+			);
 			productName = AwesomeAppTests;
 			productReference = 164CD20626909BCA0011E360 /* AwesomeAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -166,6 +180,12 @@
 				Base,
 			);
 			mainGroup = 164CD1EC26909BCA0011E360;
+			packageReferences = (
+				164CD22326909CA70011E360 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+				164CD22626909CC30011E360 /* XCRemoteSwiftPackageReference "AccessibilitySnapshot" */,
+				164CD22926909CCF0011E360 /* XCRemoteSwiftPackageReference "swift-snapshot-testing-stitch" */,
+				164CD22C26909CF80011E360 /* XCRemoteSwiftPackageReference "ios-accessibility-text-snapshot" */,
+			);
 			productRefGroup = 164CD1F626909BCA0011E360 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -201,7 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				164CD1FB26909BCA0011E360 /* ContentView.swift in Sources */,
-				164CD1F926909BCA0011E360 /* AwesomeAppApp.swift in Sources */,
+				164CD1F926909BCA0011E360 /* AwesomeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +477,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		164CD22326909CA70011E360 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.0;
+			};
+		};
+		164CD22626909CC30011E360 /* XCRemoteSwiftPackageReference "AccessibilitySnapshot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cashapp/AccessibilitySnapshot";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+		164CD22926909CCF0011E360 /* XCRemoteSwiftPackageReference "swift-snapshot-testing-stitch" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Sherlouk/swift-snapshot-testing-stitch/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		164CD22C26909CF80011E360 /* XCRemoteSwiftPackageReference "ios-accessibility-text-snapshot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sherlouk/ios-accessibility-text-snapshot";
+			requirement = {
+				branch = spm;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		164CD22426909CA70011E360 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 164CD22326909CA70011E360 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+		164CD22726909CC30011E360 /* AccessibilitySnapshot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 164CD22626909CC30011E360 /* XCRemoteSwiftPackageReference "AccessibilitySnapshot" */;
+			productName = AccessibilitySnapshot;
+		};
+		164CD22A26909CCF0011E360 /* SnapshotTestingStitch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 164CD22926909CCF0011E360 /* XCRemoteSwiftPackageReference "swift-snapshot-testing-stitch" */;
+			productName = SnapshotTestingStitch;
+		};
+		164CD22D26909CF80011E360 /* ios-accessibility-text-snapshot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 164CD22C26909CF80011E360 /* XCRemoteSwiftPackageReference "ios-accessibility-text-snapshot" */;
+			productName = "ios-accessibility-text-snapshot";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 164CD1ED26909BCA0011E360 /* Project object */;
 }
