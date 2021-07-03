@@ -1,0 +1,7 @@
+{
+    "name": "awesome-snapshot-testing",
+    "version": "1.0.0",
+    "devDependencies": {
+        "percy": "^0.28.6"
+    }
+}
